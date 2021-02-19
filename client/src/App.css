@@ -1,0 +1,178 @@
+/* Utilities */
+.container-body {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.small-text {
+  font-size: small;
+  color: #b3b3b3 !important;
+}
+
+.grey-text {
+  color: grey !important;
+}
+
+/* Theme Color */
+
+.label.red-label {
+  background-color: #b82601;
+  color: white;
+}
+
+.segment.red-segment {
+  background-color: #b82601;
+  color: white;
+}
+
+.button.red-button {
+  background-color: #b82601;
+  color: white;
+}
+
+.button.red-button:hover {
+  background-color: #aa2200;
+  color: white;
+}
+
+.button.red-button:focus {
+  background-color: #b82601;
+  color: white;
+}
+
+.red-text {
+  color: #b82601;
+}
+
+.white-text {
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.button.left-text {
+  text-align: left;
+}
+
+.padding-text {
+  padding: 0.2rem;
+}
+
+.grey-text {
+  color: grey;
+}
+
+.float-mobile {
+  float: right;
+}
+
+input[type='range'] {
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding: 0px 0px;
+  -webkit-appearance: none;
+}
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  color: #b82601;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50rem;
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+  background: #570000;
+  box-shadow: -87px 0 0 80px #b82601;
+}
+
+.invisible-button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0%;
+}
+.invisible-button:focus {
+  outline: none;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.invisible-button:active {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0%;
+}
+
+.red-link:hover {
+  color: #aa2200;
+}
+
+.white-link {
+  color: white;
+}
+
+.white-link:hover {
+  color: #e7e7e7;
+}
+
+.ui .segment .invisible-segment {
+  border: none;
+  box-shadow: none;
+}
+
+.picture-container {
+  /* background: url('./img/nuslogo.jpg') no-repeat center center/cover; */
+  height: 40vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px #b82601; */
+}
+
+/* Form */
+.form-center {
+  /* color: #b82601; */
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Position */
+.fixed-position {
+  position: absolute;
+}
